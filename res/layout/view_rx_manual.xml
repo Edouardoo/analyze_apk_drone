@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rx="http://schemas.android.com/apk/res-auto">
+    <com.hfufo.widget.RockerBgView android:id="@id/leftRudder" android:background="@android:color/transparent" android:clickable="false" android:layout_width="212.0dip" android:layout_height="212.0dip" android:layout_marginLeft="1.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" rx:rudderRadius="48" rx:wheelRadius="200" rx:ctrlX="212" rx:ctrlY="212" />
+    <View android:id="@id/center" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_centerInParent="true" />
+    <com.hfufo.widget.RockerBgView android:id="@id/rightRudder" android:background="@android:color/transparent" android:visibility="visible" android:clickable="false" android:layout_width="212.0dip" android:layout_height="212.0dip" android:layout_marginRight="1.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" rx:rudderRadius="48" rx:wheelRadius="200" rx:ctrlX="212" rx:ctrlY="212" style=" " />
+    <View android:id="@id/leftmotion_press" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="220.0dip" android:layout_height="220.0dip" android:layout_marginLeft="1.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <View android:id="@id/rightmotion_press" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="220.0dip" android:layout_height="220.0dip" android:layout_marginRight="1.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

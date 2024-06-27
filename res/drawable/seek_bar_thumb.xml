@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:height="12.0dip" android:width="12.0dip" android:drawable="@mipmap/ic_seek_bar_progress_thumb" />
+    <item android:height="8.0dip" android:width="8.0dip" android:drawable="@mipmap/ic_seek_bar_progress_thumb" />
+</selector>

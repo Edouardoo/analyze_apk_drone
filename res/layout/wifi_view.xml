@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/select_img" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="18.0dip" android:layout_margin="8.0dip" android:src="@drawable/icon_choose" />
+    <TextView android:textSize="16.0sp" android:textColor="@drawable/src_text_view_select" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/wifi_ssid" android:background="@drawable/bg_wifi_touch" android:clickable="true" android:layout_width="0.0dip" android:layout_height="25.0dip" android:text="wifi" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/wifi_img" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/icon_wifi1" />
+</LinearLayout>

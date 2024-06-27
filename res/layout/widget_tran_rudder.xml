@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hfufo.widget.PathView android:id="@id/rocker_pathview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/rudderTBtnWheel_t" android:background="@drawable/btn_translate" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/rudderTBtn_t" android:background="@mipmap/rocker_btn" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

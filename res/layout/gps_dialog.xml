@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_selector" android:layout_width="350.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title_d" android:background="#ff005696" android:layout_width="350.0dip" android:layout_height="50.0dip" android:text="@string/dialog_warning" />
+    <ImageView android:id="@id/dialog_warrimg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/warring1" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/message_tip" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/dialog_gpswarning" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@id/sure" android:layout_width="0.0dip" android:layout_height="45.0dip" android:text="@string/Setting" android:layout_weight="1.0" style="@style/button_orange" />
+        <Button android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="45.0dip" android:text="@string/cancel" android:layout_weight="1.0" style="@style/button_orange" />
+    </LinearLayout>
+</LinearLayout>

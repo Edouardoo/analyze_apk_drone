@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@id/rl_root" android:layout_width="200.0dip" android:layout_height="100.0dip" android:foreground="?android:selectableItemBackground" app:cardCornerRadius="2.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/ivImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_play" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@mipmap/video_play" android:scaleType="fitXY" android:contentDescription="@null" />
+    <ImageView android:id="@id/iv_add_music" android:paddingLeft="@dimen/px20" android:paddingTop="@dimen/px20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_music_selector" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_buttom" android:background="@color/cardview_dark_background" android:layout_width="fill_parent" android:layout_height="20.0dip">
+        <ImageView android:layout_width="20.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:src="@mipmap/img_video" />
+        <TextView android:textColor="@color/white" android:gravity="center|left" android:id="@id/tv_length" android:paddingRight="5.0dip" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/white" android:gravity="center|right" android:id="@id/tv_date" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/v_shadown" android:background="#60000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="right" android:id="@id/ivPhotoCheaked" android:paddingTop="@dimen/px20" android:paddingRight="@dimen/px20" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/img_uncheck" android:contentDescription="@null" />
+</android.support.v7.widget.CardView>

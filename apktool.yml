@@ -1,0 +1,36 @@
+version: 2.9.3
+apkFileName: HF UFO_1.2.5_apkcombo.com.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 28
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 25
+  versionName: 1.2.5
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  publicsuffixes.gz: 8
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- res/raw/_face1.caffemodel
+- res/raw/_vandhandobjs.caffemodel
+- wav
+- res/raw/jl_ac51.bfu
+- res/raw/jl_ac51hqf.bfu
+- res/raw/jl_ac51xqm.bfu
+- res/raw/jl_ac52.bfu
+- res/raw/jl_ac53.bfu
+- res/raw/jl_ac5x.bfu
+- mp3
+- res/raw/version.txt

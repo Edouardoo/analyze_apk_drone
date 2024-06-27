@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center" android:id="@id/sure" android:layout_width="250.0dip" android:layout_height="50.0dip" android:text="@string/files_delete" style="@style/button_orange" />
+    <Button android:gravity="center" android:id="@id/cancel" android:layout_width="250.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:text="@string/cancledele" style="@style/button_orange" />
+</LinearLayout>

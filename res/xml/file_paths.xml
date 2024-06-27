@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="rx_DCIM" path="DCIM" />
+    <external-path name="rx_Pictures" path="Pictures" />
+    <files-path name="rx_private_files" path="images" />
+    <cache-path name="rx_private_cache" path="images" />
+    <external-files-path name="rx_external_files" path="Pictures" />
+    <root-path name="root_name" path="" />
+    <external-path path="Android/data/com.hfufo.rxdrone/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+</paths>

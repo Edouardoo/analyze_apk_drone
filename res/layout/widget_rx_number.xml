@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rx="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="#ffffffff" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="飞行高度（米）：" />
+    <Button android:id="@id/subBtn" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" />
+    <EditText android:gravity="center" android:id="@id/numberET" android:layout_width="104.0dip" android:layout_height="wrap_content" android:text="20" android:ems="10" android:singleLine="true" android:numeric="decimal" android:layout_toRightOf="@id/okBtn" android:layout_alignParentTop="true" android:inputType="number" android:layout_toEndOf="@id/okBtn" />
+    <Button android:id="@id/addBtn" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dialog_warrimg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/warring1" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/gps_less" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/dialog_warrimg" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/warring_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Are you sure to take off?" android:layout_below="@id/gps_less" android:layout_centerHorizontal="true" />
+    <View android:id="@id/backgroud_line" android:background="@color/transparent_light" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/warring_text" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="2.0" android:layout_below="@id/backgroud_line">
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_cancle" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Cancel" android:layout_weight="1.0" />
+        <View android:background="@color/transparent_light" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_ok" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

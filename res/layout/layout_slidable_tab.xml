@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_bar" android:background="@color/yellow_mi" android:layout_width="fill_parent" android:layout_height="@dimen/px108"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.videooperate.view.SegmentTabLayout android:layout_gravity="center" android:id="@id/st_tab_layout" android:layout_width="@dimen/px600" android:layout_height="@dimen/px80" app:tl_indicator_color="@color/color_AAAAAA" app:tl_indicator_corner_radius="2.0dip" app:tl_divider_color="@color/color_AAAAAA" app:tl_tab_padding="20.0dip" app:tl_textsize="@dimen/px30Font" app:tl_bar_stroke_color="@color/color_AAAAAA" />
+</LinearLayout>

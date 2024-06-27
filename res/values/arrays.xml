@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="albume_title">
+        <item>PHOTO</item>
+        <item>VIDEO</item>
+    </string-array>
+    <string-array name="hdwifi_name_list">
+        <item>H1W_</item>
+        <item>Granflow</item>
+        <item>granflow</item>
+        <item>M8_</item>
+        <item>H1_</item>
+        <item>WIFI_GPS</item>
+        <item>WIFI_</item>
+        <item>Wifi_720</item>
+        <item>wifi_720</item>
+        <item>Wifi_1080</item>
+        <item>wifi_1080</item>
+        <item>Wifi_camera</item>
+        <item>HF_</item>
+        <item>HR_</item>
+        <item>Bee</item>
+        <item>BEE</item>
+        <item>VISION</item>
+    </string-array>
+    <string-array name="music_app_list">
+        <item>com.tencent.qqmusic</item>
+        <item>com.kugou.android</item>
+        <item>cn.kuwo.player</item>
+        <item>fm.xiami.main</item>
+        <item>com.ximalaya.ting.android</item>
+        <item>com.musicplayer.music</item>
+        <item>com.musicplayer.playermusic</item>
+        <item>com.meizu.media.music</item>
+        <item>ccom.netease.cloudmusic</item>
+        <item>com.duomi.android</item>
+        <item>com.sec.android.app.music</item>
+        <item>com.maxmpz.audioplayer</item>
+        <item>com.kodarkooperativet.blackplayerfree</item>
+        <item>com.ventismedia.android.mediamonkey</item>
+        <item>in.krosbits.musicolet</item>
+        <item>com.neutroncode.mpeval</item>
+        <item>com.tbig.playerpro</item>
+        <item>com.rhmsoft.pulsar</item>
+        <item>gonemad.gmmp</item>
+        <item>com.Project100Pi.themusicplayer</item>
+        <item>com.google.android.music</item>
+    </string-array>
+    <string-array name="music_link_list">
+        <item>https://www.google.com</item>
+        <item>https://www.baidu.com</item>
+    </string-array>
+    <string-array name="pref_entries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888</item>
+        <item>RGBX 8888</item>
+        <item>YV12</item>
+        <item>OpenGL ES2</item>
+    </string-array>
+    <string-array name="pref_entries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888</item>
+        <item>RGBX 8888</item>
+        <item>YV12</item>
+        <item>OpenGL ES2</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_values_pixel_format">
+        <item></item>
+        <item>fcc-rv16</item>
+        <item>fcc-rv24</item>
+        <item>fcc-rv32</item>
+        <item>fcc-yv12</item>
+        <item>fcc-_es2</item>
+    </string-array>
+    <string-array name="pref_entry_values_player">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="rtsp_h264_front_url">
+        <item>rtsp://%s:554/264_rt/XXX.sd</item>
+        <item>rtsp://%s:554/264_rt/XXX.hd</item>
+        <item>rtsp://%s:554/264_rt/XXX.fhd</item>
+    </string-array>
+    <string-array name="rtsp_h264_rear_url">
+        <item>rtsp://%s:554/264_rt/rear.sd</item>
+        <item>rtsp://%s:554/264_rt/rear.hd</item>
+        <item>rtsp://%s:554/264_rt/rear.fhd</item>
+    </string-array>
+    <string-array name="rtsp_jpeg_front_url">
+        <item>rtsp://%s:554/avi_rt/front.sd</item>
+        <item>rtsp://%s:554/avi_rt/front.hd</item>
+        <item>rtsp://%s:554/avi_rt/front.fhd</item>
+    </string-array>
+    <string-array name="rtsp_jpeg_rear_url">
+        <item>rtsp://%s:554/avi_rt/rear.sd</item>
+        <item>rtsp://%s:554/avi_rt/rear.hd</item>
+        <item>rtsp://%s:554/avi_rt/rear.fhd</item>
+    </string-array>
+    <string-array name="wifi_name_list">
+        <item>wifi_camera</item>
+        <item>WIFI-</item>
+        <item>H1W-</item>
+        <item>M8-</item>
+        <item>HF-</item>
+        <item>HR-</item>
+    </string-array>
+</resources>

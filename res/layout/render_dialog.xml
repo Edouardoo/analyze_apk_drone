@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60.0dip" android:src="@android:color/transparent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:color/transparent">
+        <RadioGroup android:orientation="horizontal" android:id="@id/split" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_centerInParent="true">
+            <RadioButton android:gravity="center" android:id="@id/split_one" android:background="@mipmap/one_screen" android:layout_width="50.0dip" android:layout_height="50.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/split_two" android:background="@mipmap/screen_2" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/split_three" android:background="@mipmap/screen_3" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/split_four" android:background="@mipmap/screen_4" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/split_six" android:background="@mipmap/screen_6" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/split_nine" android:background="@mipmap/screen_9" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:color/transparent">
+        <RadioGroup android:orientation="horizontal" android:id="@id/render" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_centerInParent="true">
+            <RadioButton android:gravity="center" android:id="@id/render_one" android:background="@mipmap/fb_07" android:layout_width="50.0dip" android:layout_height="50.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_two" android:background="@mipmap/fb_11" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_three" android:background="@mipmap/fb_13" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_four" android:background="@mipmap/fb_15" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_five" android:background="@mipmap/fb_17" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_six" android:background="@mipmap/fb_23" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_seven" android:background="@mipmap/fb_07" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+            <RadioButton android:gravity="center" android:id="@id/render_eight" android:background="@mipmap/fb_07" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="5.0dip" android:checked="false" android:button="@drawable/src_choose_button" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:color/transparent">
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render0" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render1" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render2" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render3" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render4" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render5" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render6" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="50.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/render7" />
+    </LinearLayout>
+</LinearLayout>

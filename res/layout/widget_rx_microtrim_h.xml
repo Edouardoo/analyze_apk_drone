@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/subBtn" android:background="#00000000" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/trim_left" android:scaleType="centerInside" />
+    <RelativeLayout android:layout_width="180.0dip" android:layout_height="wrap_content">
+        <SeekBar android:layout_gravity="center_vertical" android:id="@id/seekBar" android:background="@mipmap/trim_hline" android:layout_width="150.0dip" android:layout_height="wrap_content" android:max="255" android:progress="128" android:indeterminate="false" android:indeterminateOnly="false" android:indeterminateDrawable="@android:color/transparent" android:progressDrawable="@android:color/transparent" android:thumb="@mipmap/trim_button" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <View android:id="@id/trim_vsub" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:id="@id/trim_vadd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/addBtn" android:background="#00000000" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/trim_right" android:scaleType="centerInside" />
+</LinearLayout>

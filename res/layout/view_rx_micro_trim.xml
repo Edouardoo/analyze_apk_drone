@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rx="http://schemas.android.com/apk/res-auto">
+    <com.hfufo.widget.RxSeekBar android:id="@id/trim1" android:layout_width="fill_parent" android:layout_height="wrap_content" rx:seekBarTitle="@string/channel1_text" rx:seekBarPos="128" rx:seekBarMax="255" />
+    <com.hfufo.widget.RxSeekBar android:id="@id/trim2" android:layout_width="fill_parent" android:layout_height="wrap_content" rx:seekBarTitle="@string/channel2_text" rx:seekBarPos="128" rx:seekBarMax="255" />
+    <com.hfufo.widget.RxSeekBar android:id="@id/trim4" android:layout_width="fill_parent" android:layout_height="wrap_content" rx:seekBarTitle="@string/channel4_text" rx:seekBarPos="128" rx:seekBarMax="255" />
+    <com.hfufo.widget.RxSeekBar android:id="@id/sensitivity" android:layout_width="fill_parent" android:layout_height="wrap_content" rx:seekBarTitle="@string/sensitivity_text" rx:seekBarPos="32" rx:seekBarMax="64" />
+</LinearLayout>

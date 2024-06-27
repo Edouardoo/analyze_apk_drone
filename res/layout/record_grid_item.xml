@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:background="#ff0060bf" android:layout_width="80.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="@null" />
+    <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@mipmap/video_play" android:scaleType="fitXY" android:layout_centerInParent="true" android:contentDescription="@null" />
+</RelativeLayout>
